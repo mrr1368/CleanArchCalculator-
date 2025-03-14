@@ -43,6 +43,8 @@ namespace Test1_Calculator.Infrustructure
 
             //register the input handler used to process input events.
             service.AddSingleton<InputEventHandler>();
+
+            service.AddSingleton<DisplayManager>();
         }
     }
 }

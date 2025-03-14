@@ -44,7 +44,7 @@ namespace Test1_Calculator.Application.Interfaces
         /// Handles the Enter key press,which is used to process the current input data and perform a desired action.
         /// This method is useful when the input provider needs to process the input data.
         /// </summary>
-        void HandleEnter();
+        string HandleEnter();
 
     }
 }

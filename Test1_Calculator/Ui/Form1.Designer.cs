@@ -35,29 +35,33 @@
             // txtInput
             // 
             txtInput.BorderStyle = BorderStyle.None;
-            txtInput.Location = new Point(12, 41);
+            txtInput.Location = new Point(14, 55);
+            txtInput.Margin = new Padding(3, 4, 3, 4);
             txtInput.Name = "txtInput";
-            txtInput.Size = new Size(257, 16);
+            txtInput.Size = new Size(294, 20);
             txtInput.TabIndex = 0;
             // 
             // txtResult
             // 
             txtResult.BorderStyle = BorderStyle.None;
-            txtResult.Location = new Point(12, 70);
+            txtResult.Location = new Point(14, 93);
+            txtResult.Margin = new Padding(3, 4, 3, 4);
             txtResult.Name = "txtResult";
-            txtResult.Size = new Size(257, 16);
+            txtResult.Size = new Size(294, 20);
             txtResult.TabIndex = 1;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(txtResult);
             Controls.Add(txtInput);
             KeyPreview = true;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
